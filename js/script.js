@@ -44,7 +44,7 @@ console.log(topMenuEl)
 // Task 2.1
 // Set the height topMenuElelement to be 100%.
 
-topMenuEl.style.height = 100;
+topMenuEl.style.height = "100%";
 
 // Task 2.2
 // Set the background color of topMenuEl to the value stored in the --top-menu-bg CSS custom property.
@@ -67,5 +67,5 @@ topMenuEl.classList = 'flex-around';
 // Append the new element to the topMenuElelement.
 
 for(i = 0; i < menuLinks.length; i++){
-
+    
 }
