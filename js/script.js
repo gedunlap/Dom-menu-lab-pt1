@@ -1,7 +1,3 @@
-// Task 3.0
-// Copy the following data structure to the top of script.js:
-
-// Menu data structure
 var menuLinks = [
     {text: 'about', href: '/about'},
     {text: 'catalog', href: '/catalog'},
@@ -58,6 +54,16 @@ topMenuEl.classList = 'flex-around';
 
 // Task 3.0 (at top)
 
+// Copy the following data structure to the top of script.js:
+
+// Menu data structure
+// var menuLinks = [
+//   {text: 'about', href: '/about'},
+//   {text: 'catalog', href: '/catalog'},
+//   {text: 'orders', href: '/orders'},
+//   {text: 'account', href: '/account'},
+// ];
+
 // Task 3.1
 // Iterate over the entire menuLinksarray and for each "link" object:
 
@@ -66,6 +72,9 @@ topMenuEl.classList = 'flex-around';
 // Set the new element's content to the value of the textproperty of the "link" object.
 // Append the new element to the topMenuElelement.
 
-for(i = 0; i < menuLinks.length; i++){
-    
-}
+
+console.log(menuLinks[i])
+
+// for(i = 0; i < menuLinks.length; i++){
+//     menuLinks[i].
+// }
